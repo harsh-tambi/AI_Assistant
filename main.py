@@ -18,10 +18,7 @@ def takeCommand():
 
 if __name__ == '__main__':
     say('Hi! How can I help you?')
-    print ("You can speak now...... I'm listening")
     text = takeCommand()
-    say ('Audio Recieved')
     say(text)
-
-
+    
 
